@@ -25,6 +25,12 @@ public final class StringOps {
         return new String(chars);
     }
 
+    /** reverse string with StringBuilder */
+    private static String StringBuilderReverse(String string) {
+        StringBuilder stringBuilder = new StringBuilder(string);
+        return stringBuilder.reverse().toString();
+    }
+
     /**
      * Palindrome check ignoring case and every non alphanumeric character.
      *
